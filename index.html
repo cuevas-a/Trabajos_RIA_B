@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <title>Trabajos RIA</title>
+    <style type="text/css">
+    /*reset*/
+        
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }   
+        
+        img {
+            width: 100%;
+            height: auto;
+        }
+    /*fonts*/
+        
+        body{
+            font-family: "Roboto", "sans-serif"
+        }
+        
+        .grid-container{
+            height: auto;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        header {
+            display: flex;
+            flex-direction: column;
+            padding: 0 36px;
+            width: 100%;
+            height: 100vh;
+            color: #E075BA;
+            background-color: #941668;
+            background-image: url(img/triangulos.png);
+            background-size: cover;
+            font-weight: 400;
+            justify-content: space-around;
+        }
+        
+        h1{
+            font-size: 16vw;
+            line-height: 15vw;
+        }
+        
+        h1 span{
+            position: absolute;
+            margin: -1vw 0 0 0;
+            font-size: 5.5vw;
+        }
+        
+        h2{
+            font-size: 6vw;
+        }
+        
+        nav{
+            position: sticky;
+            top: 0;
+            display: flex;
+            padding: 0 36px;
+            align-items: center;
+            justify-content: space-around;
+            background-color: #941668;
+            height: 93px;
+        }
+        
+        a{
+            text-decoration: none;
+        }
+        nav a {
+            color: darkgray;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: 400;
+        }
+        
+        main{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            padding: 68px 36px 0 36px;
+            background-color: #E075BA;
+        }
+        
+        main section{
+            width: 100%;
+            padding: 10px 20px 20px 10px;
+            margin-bottom: 20px;
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+            border-radius: 20px;
+        }
+        
+        main section figure{
+            width: 100%;
+            height: 100%;
+        }
+        
+        main section figure img{
+            max-height: 100%;
+            max-height: 100%;
+            object-fit: cover;
+            object-position: center top;
+        }
+        
+        main section figcaption{
+            display: flex;
+            color: black;
+            height: 40px;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        footer{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            height: 263px;
+            padding: 18px 36px;
+        }
+        
+        footer a {
+            color: white;
+            text-decoration: none;
+            font-size: 30px;
+            text-decoration: uppercase;
+        }
+        
+        .xxss{
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        .email{
+            display: flex;
+            justify-content: center;
+        }
+        
+        @media only screen and (max-width: 767px) {
+            body {
+                background: grey;
+            }
+        }
+        
+        
+         @media only screen and (min-width: 768px) {
+        body {
+                background: #941668;
+            }
+        
+        header{
+            background-image: url(img/Grupo4.png);
+            background-position: center;
+        }
+        h1{
+            width: 80%;
+            margin: auto;
+            font-size: 8vw;
+            line-height: 7vw;
+        }
+        h1 span{
+            width: 80%;
+            font-size: 3.7vw;
+            margin: auto;
+            position: relative;
+            padding: 23vw 0 0 0;
+            text-align: left;
+        }
+        h2{
+            width: 80%;
+            margin: auto;
+            font-size: 3.6vw;
+        }
+        h3{
+            width: 80%;
+            margin: auto;
+        }
+        nav{
+            font-size: 30px;
+            padding: o 30vw; 
+        }
+        .grid-container{
+                 margin: auto;
+                 width: 90%;
+                 display: flex;
+                 flex-direction: row;
+                 flex-wrap: wrap;
+                 justify-content: space-between;
+                
+        }   
+        main section{
+             max-width: 370px;
+             margin: 0.5em;
+             }     
+        
+        }       
+        
+        @media only screen and (min-width: 1200px) {
+            body {
+                background: #941668;
+            }
+            h1{
+                width: 80%;
+            }
+            h2{
+                width: 80%;
+                text-align: right;
+            }
+            h3{
+                width: 80%;
+            }
+            h1 br{
+                display: none;
+            }
+            main section{
+                max-width: 31%;
+                margin: 0.5em;
+            }
+            footer{
+                flex-direction: row;
+                align-items: center;
+            }
+            .xxss{
+                width: 65%;
+                justify-content: space-between;
+            }
+            
+        }
+    </style>
+</head>
+
+<body>
+   <header class="header">
+    <h1>Recursos <br> Interactivos <br> Aplicados <br>
+        <span>Gráfica Publicitaria</span> 
+    </h1>   
+    <h2>CFGS Gráfica Publicitaria <br> EASDAlcoy 2020/2021</h2>
+    <h3> Andrea Cuevas Forrat </h3>
+    </header>
+    
+    <nav>
+    <a href="">Proyectos</a>
+    <a href="">Contactos</a>    
+    </nav>
+    
+    <main class="main"> 
+        <div class="grid-container">
+
+    <section>
+        <figure>
+            <img src="img/Capturatrabajo.JPG" alt="p1_webtreball">
+        </figure>
+        <figcaption>
+        <a href="file:///C:/Users/andre/OneDrive/Escritorio/Recursos%20In/p0/index.html"><h4>p0_llocweb</h4></a>
+        </figcaption>
+    </section>
+    
+    <section>
+        <figure>
+            <img src="img/Captura2.JPG" alt="p1_webtreball">
+        </figure>
+        <figcaption>
+           <a href="index.html"><h4>p1_webtreball</h4></a>
+        </figcaption>
+    </section>
+    
+    <section>
+        <figure>
+            <img src="img/Capturatrabajo.JPG" alt="p1_webtreball">
+        </figure>
+        <figcaption>
+            <h4>p0_llocweb</h4>
+        </figcaption>
+    </section>
+  </div>
+
+    </main>
+
+    <footer class="footer">
+    <div class="xxss">
+    <a href="https://www.instagram.com/anncf_/">Instagram </a>
+    <a href="https://mail.google.com/mail/u/1/#inbox">E-mail</a>
+    <a href="https://twitter.com/">Twitter</a>
+    </div>
+    
+    <div class="email">
+        <a href="https://www.pinterest.es/smallblackroom/typographic-poster/"> Pinterest </a>
+    </div>
+    </footer>
+    
+</body>
+</html>
